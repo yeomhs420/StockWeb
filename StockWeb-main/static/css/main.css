@@ -1,0 +1,61 @@
+section {
+    z-index: 1;
+}
+section::after{
+    content:'';
+    background-image: url(../main/stock_img0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 1920px;
+    min-height: 800px;
+    margin:0 auto;
+    opacity: 0.6;
+    z-index: -1;
+}
+#main-intro {
+    position: absolute;
+    /* width:500px;
+    height:400px; */
+}
+span {
+    font-family: 'Quicksand', sans-serif;
+    font-size:70px;
+}
+#font-bhs, #search-button {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* .mainContainer {
+    position:relative;
+} */
+#textControl {
+    font-size:1rem;
+    width:350px;
+    margin-right: 15px;
+    text-align: center;
+}
+.white, .white a {
+    color: #fff;
+}
+
+.icon-margin {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+#loading {
+    display: none;
+}
+
+.nav-item{
+    margin-left:1rem;
+}
+
+#carouse-message{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+}
+
+#carousel{
+    width: 1500px;
+    height:750px;
+}
